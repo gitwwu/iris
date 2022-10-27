@@ -1,2 +1,0 @@
-# iris
-Iris Design System

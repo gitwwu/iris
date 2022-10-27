@@ -1,0 +1,13 @@
+{
+  "name": "@backlight-dev/cushion-admit-xy5dc.blank-l9rl9nbg",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve XBB31F31OBEt9lO1QMoR --open"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

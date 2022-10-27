@@ -1,0 +1,649 @@
+{
+  "global": {
+    "Blue 1": {
+      "value": "#012d70",
+      "type": "color",
+      "description": "Used for primary buttons and pressed states"
+    },
+    "Blue 2": {
+      "value": "#0069b6",
+      "type": "color",
+      "description": "Used for links, etc."
+    },
+    "Blue 3": {
+      "value": "#72d4ff",
+      "type": "color",
+      "description": "Used for infographics, progress bars, etc."
+    },
+    "Blue 4": {
+      "value": "#e3f6ff",
+      "type": "color",
+      "description": "Used for navigation backgrounds"
+    },
+    "Black": {
+      "value": "#100f32",
+      "type": "color",
+      "description": "Used as primary text color."
+    },
+    "Gray 1": {
+      "value": "#585770",
+      "type": "color",
+      "description": "Used for secondary text in running copy."
+    },
+    "Gray 2": {
+      "value": "#878798",
+      "type": "color",
+      "description": "Used as inactive state"
+    },
+    "Gray 3": {
+      "value": "#ccd5df",
+      "type": "color",
+      "description": "Borders, outlines. etc."
+    },
+    "Off-White": {
+      "value": "#f7f7f7",
+      "type": "color"
+    },
+    "White": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "Used for both text and backgrounds."
+    },
+    "Red": {
+      "value": "#b6006a",
+      "type": "color",
+      "description": "Used for any negative messaging"
+    },
+    "Green": {
+      "value": "#006855",
+      "type": "color",
+      "description": "Used for any positive messaging"
+    },
+    "Yellow": {
+      "value": "#fdd73c",
+      "type": "color",
+      "description": "Used for both brand and warning moments."
+    },
+    "Light Yellow": {
+      "value": "#fceeb3",
+      "type": "color",
+      "description": "Used for primary inactive states"
+    },
+    "Distress scale": {
+      "0": {
+        "value": "#f1f8fc",
+        "type": "color"
+      },
+      "1": {
+        "value": "#e4f1fa",
+        "type": "color"
+      },
+      "2": {
+        "value": "#d4e9f9",
+        "type": "color"
+      },
+      "3": {
+        "value": "#cddbf1",
+        "type": "color"
+      },
+      "4": {
+        "value": "#c7c8e7",
+        "type": "color"
+      },
+      "5": {
+        "value": "#c2b3da",
+        "type": "color"
+      },
+      "6": {
+        "value": "#bf9bcc",
+        "type": "color"
+      },
+      "7": {
+        "value": "#bb80ba",
+        "type": "color"
+      },
+      "8": {
+        "value": "#b868ad",
+        "type": "color"
+      },
+      "9": {
+        "value": "#b94496",
+        "type": "color"
+      },
+      "10": {
+        "value": "#b91f7d",
+        "type": "color"
+      }
+    },
+    "Fade": {
+      "Left": {
+        "value": "linear-gradient(90deg, #ffffff 0%, #ffffff00 100%)",
+        "type": "color",
+        "description": "Effect for horizontal or vertical scrolling zones"
+      },
+      "Top": {
+        "value": "linear-gradient(180deg, #ffffff 0%, #ffffff00 100%)",
+        "type": "color"
+      },
+      "Right": {
+        "value": "linear-gradient(90deg, #ffffff00 0%, #ffffff 100%)",
+        "type": "color"
+      },
+      "Bottom": {
+        "value": "linear-gradient(180deg, #ffffff00 0%, #ffffff 100%)",
+        "type": "color"
+      }
+    },
+    "fontFamilies": {
+      "avenir-next-lt-pro": {
+        "value": "Avenir Next LT Pro",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "0": {
+        "value": "56",
+        "type": "lineHeights"
+      },
+      "1": {
+        "value": "40",
+        "type": "lineHeights"
+      },
+      "2": {
+        "value": "32",
+        "type": "lineHeights"
+      },
+      "3": {
+        "value": "28",
+        "type": "lineHeights"
+      },
+      "4": {
+        "value": "24",
+        "type": "lineHeights"
+      },
+      "5": {
+        "value": "20",
+        "type": "lineHeights"
+      },
+      "6": {
+        "value": "16",
+        "type": "lineHeights"
+      },
+      "7": {
+        "value": "18",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeights": {
+      "avenir-next-lt-pro-0": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "avenir-next-lt-pro-1": {
+        "value": "Demi",
+        "type": "fontWeights"
+      },
+      "avenir-next-lt-pro-2": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "avenir-next-lt-pro-3": {
+        "value": "Bold",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "10",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "18",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "32",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "48",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0",
+        "type": "letterSpacing"
+      },
+      "1": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "2": {
+        "value": "0.5",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "Display 1": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.8}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "This style appears in RWD landing page titles"
+    },
+    "Display 2": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+        "lineHeight": "{lineHeights.1}",
+        "fontSize": "{fontSize.7}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Display 3": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-1}",
+        "lineHeight": "{lineHeights.1}",
+        "fontSize": "{fontSize.7}",
+        "letterSpacing": "{letterSpacing.1}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "This style appears in RWD page headlines"
+    },
+    "Headline 1": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-1}",
+        "lineHeight": "{lineHeights.2}",
+        "fontSize": "{fontSize.6}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "This style appears in RWD article content card headlines"
+    },
+    "Headline 2": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+        "lineHeight": "{lineHeights.2}",
+        "fontSize": "{fontSize.6}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "This style appears in RWD video card titles"
+    },
+    "Headline 3": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+        "lineHeight": "{lineHeights.3}",
+        "fontSize": "{fontSize.5}",
+        "letterSpacing": "{letterSpacing.1}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "This style appears in large content card body copy"
+    },
+    "Headline 4": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+        "lineHeight": "{lineHeights.4}",
+        "fontSize": "{fontSize.4}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Headline 5": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-1}",
+        "lineHeight": "{lineHeights.4}",
+        "fontSize": "{fontSize.3}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Headline 6": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-1}",
+        "lineHeight": "{lineHeights.5}",
+        "fontSize": "{fontSize.2}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Body 1": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+        "lineHeight": "{lineHeights.4}",
+        "fontSize": "{fontSize.3}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Global body copy"
+    },
+    "Body 2": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+        "lineHeight": "{lineHeights.5}",
+        "fontSize": "{fontSize.2}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Global smaller body copy\n"
+    },
+    "List 1": {
+      "value": {
+        "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+        "fontWeight": "{fontWeights.avenir-next-lt-pro-2}",
+        "lineHeight": "{lineHeights.4}",
+        "fontSize": "{fontSize.3}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Global medium wt list"
+    },
+    "Label 1": {
+      "Small": {
+        "value": {
+          "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+          "fontWeight": "{fontWeights.avenir-next-lt-pro-3}",
+          "lineHeight": "{lineHeights.6}",
+          "fontSize": "{fontSize.0}",
+          "letterSpacing": "{letterSpacing.2}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.uppercase}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "description": "Mobile"
+      },
+      "Large": {
+        "value": {
+          "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+          "fontWeight": "{fontWeights.avenir-next-lt-pro-3}",
+          "lineHeight": "{lineHeights.7}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.2}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.uppercase}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "description": "Desktop"
+      }
+    },
+    "Label 2": {
+      "Small": {
+        "value": {
+          "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+          "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+          "lineHeight": "{lineHeights.6}",
+          "fontSize": "{fontSize.0}",
+          "letterSpacing": "{letterSpacing.2}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.uppercase}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "description": "Mobile"
+      },
+      "Large": {
+        "value": {
+          "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+          "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+          "lineHeight": "{lineHeights.7}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.2}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.uppercase}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "type": "typography",
+        "description": "Desktop"
+      }
+    },
+    "Link 2": {
+      "Small": {
+        "value": {
+          "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+          "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+          "lineHeight": "{lineHeights.6}",
+          "fontSize": "{fontSize.0}",
+          "letterSpacing": "{letterSpacing.2}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.uppercase}",
+          "textDecoration": "{textDecoration.underline}"
+        },
+        "type": "typography",
+        "description": "Mobile"
+      },
+      "Large": {
+        "value": {
+          "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+          "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+          "lineHeight": "{lineHeights.7}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.2}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.uppercase}",
+          "textDecoration": "{textDecoration.underline}"
+        },
+        "type": "typography"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      }
+    },
+    "Button": {
+      "value": {
+        "color": "#0000001f",
+        "type": "dropShadow",
+        "x": "0",
+        "y": "2",
+        "blur": "8",
+        "spread": "0"
+      },
+      "type": "boxShadow"
+    },
+    "Sheet": {
+      "value": [
+        {
+          "color": "#0000001f",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "-2",
+          "blur": "8",
+          "spread": "0"
+        },
+        {
+          "color": "#ffffff",
+          "type": "innerShadow",
+          "x": "0",
+          "y": "-1",
+          "blur": "0",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "Link 1": {
+      "": {
+        "value": {
+          "fontFamily": "{fontFamilies.avenir-next-lt-pro}",
+          "fontWeight": "{fontWeights.avenir-next-lt-pro-0}",
+          "lineHeight": "{lineHeights.4}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "textDecoration": "{textDecoration.none}",
+          "textCase": "{textCase.none}"
+        },
+        "type": "typography",
+        "description": "Link text with no underline"
+      }
+    },
+    "Gray 4": {
+      "value": "#55546B",
+      "type": "color",
+      "description": "AAA compliant inactive state"
+    },
+    "Round 1": {
+      "value": "28",
+      "type": "borderRadius",
+      "description": "Used for large buttons"
+    },
+    "Round 2": {
+      "value": "24",
+      "type": "borderRadius",
+      "description": "Used for large pills"
+    },
+    "Round 3": {
+      "value": "18",
+      "type": "borderRadius",
+      "description": "Used for small pills such as timeslot"
+    },
+    "Round 4": {
+      "value": "8",
+      "type": "borderRadius",
+      "description": "Used for card corners"
+    },
+    "Round 5": {
+      "value": "4",
+      "type": "borderRadius",
+      "description": "Used for tooltip box"
+    }
+  },
+  "Light": {},
+  "Dark": {},
+  "Theme": {},
+  "Web": {},
+  "Button": {
+    "cta primary": {
+      "value": "28",
+      "type": "borderRadius",
+      "description": "Primary large CTA"
+    },
+    "cta secondary": {
+      "value": "1",
+      "type": "borderWidth"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "Light",
+      "Dark",
+      "Theme",
+      "Web",
+      "Button"
+    ]
+  }
+}

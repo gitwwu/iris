@@ -1,0 +1,29 @@
+name: psctest
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.18.2 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  widgetbook: 2.0.5-beta
+  auto_size_text: 3.0.0
+  flutter_svg: ^1.0.3
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter: 
+  uses-material-design: true
+  assets: 
+    - packages/psctest/assets/images/psc1.png
+    - packages/psctest/assets/images/favoriteborder.svg
+    - packages/psctest/assets/images/vector.svg
+    - packages/psctest/assets/images/group.svg
+    - packages/psctest/assets/images/psc2.png
+    - packages/psctest/assets/images/ellipse2839.png
+    - packages/psctest/assets/images/group9845.svg
+    - packages/psctest/assets/images/ellipse2838.png
+    - packages/psctest/assets/images/vector1376.svg

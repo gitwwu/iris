@@ -124,7 +124,7 @@ class _MyAppScreen extends State<MyAppScreen> {
                   height: 95.0,
                   width: 286.0,
                   child: AutoSizeText(
-                    'You have pushed the button this many times:',
+                    'I have pushed the button this many times:',
                     style: TextStyle(
                       fontFamily: 'Sanchez',
                       fontSize: 21,

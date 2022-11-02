@@ -1,6 +1,6 @@
 {
-    "name": "appdemo",
-    "short_name": "appdemo",
+    "name": "testscreen",
+    "short_name": "testscreen",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
